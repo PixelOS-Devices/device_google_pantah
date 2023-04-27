@@ -14,6 +14,10 @@ PRODUCT_COPY_FILES += \
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
+# Expose AUX to Google Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.aux.camera_oem_package=com.google.android.GoogleCamera
+
 # Build necessary packages for vendor
 
 # Audio
