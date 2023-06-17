@@ -4,24 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common AOSP stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp_panther.mk)
-$(call inherit-product, device/google/gs201/lineage_common.mk)
+$(call inherit-product, device/google/gs201/custom_common.mk)
 
-include device/google/pantah/panther/device-lineage.mk
+include device/google/pantah/panther/device-custom.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
-PRODUCT_NAME := lineage_panther
+PRODUCT_NAME := aosp_panther
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=panther \
