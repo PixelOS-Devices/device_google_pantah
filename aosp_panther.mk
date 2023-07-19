@@ -15,7 +15,7 @@ $(call inherit-product, device/google/gs201/custom_common.mk)
 include device/google/pantah/panther/device-custom.mk
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 7
 PRODUCT_NAME := aosp_panther
 
