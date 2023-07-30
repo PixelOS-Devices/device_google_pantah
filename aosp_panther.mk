@@ -7,6 +7,7 @@
 # Inherit some common AOSP stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/pixel_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp-g_panther.mk)
