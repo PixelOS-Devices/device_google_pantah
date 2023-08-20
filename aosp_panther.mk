@@ -20,6 +20,9 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 7
 PRODUCT_NAME := aosp_panther
 
+# Google Battery
+TARGET_NOT_SUPPORTS_GOOGLE_BATTERY := false
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
