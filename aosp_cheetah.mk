@@ -7,6 +7,7 @@
 # Inherit some common AOSP stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/pixel_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/pantah/aosp-g_cheetah.mk)
@@ -15,7 +16,7 @@ $(call inherit-product, device/google/gs201/custom_common.mk)
 include device/google/pantah/cheetah/device-custom.mk
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 7 Pro
 PRODUCT_NAME := aosp_cheetah
 
