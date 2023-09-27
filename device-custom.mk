@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
     android.hardware.identity-support-lib.vendor:64 \
     android.hardware.identity_credential.xml
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
+
 # Nos
 PRODUCT_PACKAGES += \
     libkeymaster4support.vendor:64 \
