@@ -34,7 +34,7 @@
     <!-- Multi user switch has some intrinsic padding to it -->
     <dimen name="multi_user_switch_keyguard_margin">6dp</dimen>
 
-    <dimen name="keyguard_carrier_text_margin">16px</dimen>
+    <dimen name="keyguard_carrier_text_margin">24px</dimen>
 
     <dimen name="config_rounded_mask_size">47px</dimen>
     <dimen name="config_rounded_mask_size_top">47px</dimen>
