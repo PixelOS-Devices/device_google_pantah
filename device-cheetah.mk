@@ -346,8 +346,6 @@ endif
 # Keyboard bottom and side padding in dp for portrait mode and height ratio
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b=8 \
-    ro.com.google.ime.kb_pad_port_l=11 \
-    ro.com.google.ime.kb_pad_port_r=11 \
     ro.com.google.ime.height_ratio=1.025
 
 # Enable camera exif model/make reporting
