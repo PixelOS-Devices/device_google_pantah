@@ -19,12 +19,12 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/factory_cloudripper.mk \
     $(LOCAL_DIR)/aosp_ravenclaw.mk \
     $(LOCAL_DIR)/factory_ravenclaw.mk \
-    $(LOCAL_DIR)/aosp_cheetah.mk \
+    $(LOCAL_DIR)/aosp-g_cheetah.mk \
     $(LOCAL_DIR)/factory_cheetah.mk \
-    $(LOCAL_DIR)/aosp_panther.mk \
+    $(LOCAL_DIR)/aosp-g_panther.mk \
     $(LOCAL_DIR)/factory_panther.mk \
-    $(LOCAL_DIR)/lineage_cheetah.mk \
-    $(LOCAL_DIR)/lineage_panther.mk
+    $(LOCAL_DIR)/aosp_cheetah.mk \
+    $(LOCAL_DIR)/aosp_panther.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_cloudripper-userdebug \
